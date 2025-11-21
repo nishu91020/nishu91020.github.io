@@ -59,7 +59,7 @@ const App: React.FC = () => {
           </div>
 
           <footer className="py-8 text-center text-slate-500 text-sm border-t border-slate-200 dark:border-slate-800 bg-slate-50/80 dark:bg-slate-950/80 backdrop-blur">
-            <p>© {new Date().getFullYear()} Nishu Rai. Built with React, Tailwind & Three.js.</p>
+            <p>© {new Date().getFullYear()} Nishu Rai.</p>
           </footer>
         </div>
       </main>
