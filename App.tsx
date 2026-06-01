@@ -8,6 +8,9 @@ import EducationAndAchievements from './components/EducationAndAchievements';
 import ErrorBoundary from './components/ErrorBoundary';
 import Loading from './components/Loading';
 import { Moon, Sun } from 'lucide-react';
+import ReactGA from 'react-ga4';
+
+ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
 
 const App: React.FC = () => {
   const [isDark, setIsDark] = useState(true);
