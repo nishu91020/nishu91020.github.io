@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import ReactGA from 'react-ga4';
 
-ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+const TRACKING_ID = 'G-CNE62V3ZX2';
+ReactGA.initialize(TRACKING_ID);
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
